@@ -1,5 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,46 +15,69 @@
     <meta name="description" content="Leading web agency in Sydney helping businesses grow through professional web development, responsive design, and fast-loading websites.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body class="bg-gray-900 text-gray-100 font-sans antialiased">
     <!-- Header -->
     <header class="fixed w-full bg-gray-900/95 backdrop-blur-sm z-50 border-b border-gray-800">
         <nav class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <div class="flex items-center justify-between">
-                <a href="/" class="text-2xl font-bold bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">WebAgency</a>
+                <a href="https://test-acc-12349.github.io/best-web-agency-in-sydney-2025-04-29-cfnxr" class="text-2xl font-bold bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent hover:scale-105 transition-transform duration-300">WebAgency</a>
+                
+                <!-- Desktop Menu -->
                 <div class="hidden md:flex space-x-8">
-                    <a href="#features" class="text-gray-300 hover:text-white transition-colors duration-300">Features</a>
-                    <a href="#benefits" class="text-gray-300 hover:text-white transition-colors duration-300">Benefits</a>
-                    <a href="#faq" class="text-gray-300 hover:text-white transition-colors duration-300">FAQ</a>
-                    <a href="#contact" class="text-gray-300 hover:text-white transition-colors duration-300">Contact</a>
+                    <a href="#features" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">Features</a>
+                    <a href="#benefits" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">About</a>
+                    <a href="#faq" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">FAQ</a>
+                    <a href="#contact" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">Contact</a>
                 </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-button md:hidden p-2 rounded-lg hover:bg-gray-800 transition-colors duration-300" aria-label="Toggle mobile menu">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+
                 <a href="https://fixrr.online" class="hidden md:inline-flex items-center px-6 py-2 rounded-full bg-gradient-to-r from-blue-600 to-teal-500 text-white font-medium hover:shadow-lg hover:scale-105 transform transition duration-300">
                     Get Started
                 </a>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="mobile-menu hidden md:hidden mt-4 py-4 bg-gray-800 rounded-lg">
+                <a href="#features" class="block px-4 py-2 text-gray-300 hover:bg-gray-700 hover:text-white transition-colors duration-300">Features</a>
+                <a href="#benefits" class="block px-4 py-2 text-gray-300 hover:bg-gray-700 hover:text-white transition-colors duration-300">Benefits</a>
+                <a href="#testimonials" class="block px-4 py-2 text-gray-300 hover:bg-gray-700 hover:text-white transition-colors duration-300">Testimonials</a>
+                <a href="#about" class="block px-4 py-2 text-gray-300 hover:bg-gray-700 hover:text-white transition-colors duration-300">About</a>
+                <a href="#faq" class="block px-4 py-2 text-gray-300 hover:bg-gray-700 hover:text-white transition-colors duration-300">FAQ</a>
+                <a href="#contact" class="block px-4 py-2 text-gray-300 hover:bg-gray-700 hover:text-white transition-colors duration-300">Contact</a>
+                <a href="https://fixrr.online" class="block px-4 py-2 mt-2 text-center bg-gradient-to-r from-blue-600 to-teal-500 text-white rounded-lg hover:shadow-lg transition duration-300">Get Started</a>
             </div>
         </nav>
     </header>
 
     <!-- Hero Section -->
     <section class="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
+        <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80')] bg-cover bg-center opacity-10"></div>
         <div class="absolute inset-0 bg-gradient-to-b from-blue-900/20 to-gray-900"></div>
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center max-w-4xl mx-auto">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-8 bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent" data-aos="fade-up">
-                    Best Web Agency In Sydney
+                    Transform Your Digital Presence with Sydney's Premier Web Agency
                 </h1>
                 <p class="text-xl md:text-2xl text-gray-300 mb-12" data-aos="fade-up" data-aos-delay="100">
-                    Grow your business with clicks
+                    Elevate your business with cutting-edge web solutions that drive growth and engagement. Experience the perfect blend of design and functionality.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4 justify-center" data-aos="fade-up" data-aos-delay="200">
-                    <a href="https://fixrr.online" class="inline-flex items-center px-8 py-3 rounded-full bg-gradient-to-r from-blue-600 to-teal-500 text-white font-medium hover:shadow-lg hover:scale-105 transform transition duration-300">
-                        Get Started Now
+                    <a href="https://fixrr.online" class="inline-flex items-center px-8 py-3 rounded-full bg-gradient-to-r from-blue-600 to-teal-500 text-white font-medium hover:shadow-xl hover:scale-105 transform transition duration-300">
+                        Start Your Project
                         <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
                         </svg>
                     </a>
-                    <a href="#features" class="inline-flex items-center px-8 py-3 rounded-full border border-gray-600 text-gray-300 hover:text-white hover:border-gray-500 transition duration-300">
-                        Learn More
+                    <a href="#features" class="inline-flex items-center px-8 py-3 rounded-full border border-gray-600 text-gray-300 hover:text-white hover:border-gray-500 hover:scale-105 transition duration-300">
+                        Explore Services
                     </a>
                 </div>
             </div>
@@ -57,35 +88,35 @@
     <section id="features" class="py-24 bg-gray-800">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent" data-aos="fade-up">
-                Powerful Features
+                Industry-Leading Features
             </h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="bg-gray-900 rounded-2xl p-8 hover:shadow-2xl transition duration-300" data-aos="fade-up">
+                <div class="bg-gray-900 rounded-2xl p-8 hover:shadow-2xl hover:scale-105 transition duration-300" data-aos="fade-up">
                     <div class="w-12 h-12 bg-blue-500/20 rounded-xl flex items-center justify-center mb-6">
                         <svg class="w-6 h-6 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Easy to Use</h3>
-                    <p class="text-gray-400">Intuitive interface designed for seamless user experience and effortless navigation.</p>
+                    <h3 class="text-xl font-semibold mb-4">Intuitive Design</h3>
+                    <p class="text-gray-400">Create stunning, user-friendly websites that engage visitors and drive conversions. Our designs are crafted for optimal user experience across all devices.</p>
                 </div>
-                <div class="bg-gray-900 rounded-2xl p-8 hover:shadow-2xl transition duration-300" data-aos="fade-up" data-aos-delay="100">
+                <div class="bg-gray-900 rounded-2xl p-8 hover:shadow-2xl hover:scale-105 transition duration-300" data-aos="fade-up" data-aos-delay="100">
                     <div class="w-12 h-12 bg-teal-500/20 rounded-xl flex items-center justify-center mb-6">
                         <svg class="w-6 h-6 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"/>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Responsive Design</h3>
-                    <p class="text-gray-400">Perfectly optimized for all devices, ensuring a consistent experience across platforms.</p>
+                    <h3 class="text-xl font-semibold mb-4">Advanced Responsiveness</h3>
+                    <p class="text-gray-400">Fully adaptive layouts that automatically adjust to any screen size, ensuring your website looks perfect on all devices from mobile to desktop.</p>
                 </div>
-                <div class="bg-gray-900 rounded-2xl p-8 hover:shadow-2xl transition duration-300" data-aos="fade-up" data-aos-delay="200">
+                <div class="bg-gray-900 rounded-2xl p-8 hover:shadow-2xl hover:scale-105 transition duration-300" data-aos="fade-up" data-aos-delay="200">
                     <div class="w-12 h-12 bg-purple-500/20 rounded-xl flex items-center justify-center mb-6">
                         <svg class="w-6 h-6 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Fast Loading</h3>
-                    <p class="text-gray-400">Optimized performance ensuring lightning-fast page loads and smooth interactions.</p>
+                    <h3 class="text-xl font-semibold mb-4">Lightning Performance</h3>
+                    <p class="text-gray-400">Optimized code and advanced caching techniques ensure your website loads in milliseconds, improving user experience and SEO rankings.</p>
                 </div>
             </div>
         </div>
@@ -95,127 +126,107 @@
     <section id="benefits" class="py-24 bg-gray-900">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent" data-aos="fade-up">
-                Why Choose Us
+                Transform Your Business
             </h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                <div class="text-center" data-aos="fade-up">
+                <div class="text-center hover:scale-105 transition duration-300" data-aos="fade-up">
                     <div class="w-16 h-16 bg-blue-500/20 rounded-full flex items-center justify-center mx-auto mb-6">
                         <svg class="w-8 h-8 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Save Time</h3>
-                    <p class="text-gray-400">Streamline your workflow and focus on what matters most to your business.</p>
+                    <h3 class="text-xl font-semibold mb-4">Accelerate Growth</h3>
+                    <p class="text-gray-400">Reduce development time by 50% and launch your digital presence faster than ever before.</p>
                 </div>
-                <div class="text-center" data-aos="fade-up" data-aos-delay="100">
+                <div class="text-center hover:scale-105 transition duration-300" data-aos="fade-up" data-aos-delay="100">
                     <div class="w-16 h-16 bg-teal-500/20 rounded-full flex items-center justify-center mx-auto mb-6">
                         <svg class="w-8 h-8 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Increase Conversions</h3>
-                    <p class="text-gray-400">Optimize your online presence for maximum conversion rates and ROI.</p>
+                    <h3 class="text-xl font-semibold mb-4">Boost Conversions</h3>
+                    <p class="text-gray-400">Experience up to 200% increase in lead generation with our conversion-optimized designs.</p>
                 </div>
-                <div class="text-center" data-aos="fade-up" data-aos-delay="200">
+                <div class="text-center hover:scale-105 transition duration-300" data-aos="fade-up" data-aos-delay="200">
                     <div class="w-16 h-16 bg-purple-500/20 rounded-full flex items-center justify-center mx-auto mb-6">
                         <svg class="w-8 h-8 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Professional Look</h3>
-                    <p class="text-gray-400">Stand out with a premium, professional web presence that builds trust.</p>
+                    <h3 class="text-xl font-semibold mb-4">Build Trust</h3>
+                    <p class="text-gray-400">Establish credibility with a professional web presence that reflects your brand's values.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- FAQ Section -->
-    <section id="faq" class="py-24 bg-gray-800">
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 bg-gray-800">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent" data-aos="fade-up">
-                Frequently Asked Questions
+                Client Success Stories
             </h2>
-            <div class="max-w-3xl mx-auto space-y-6">
-                <div class="bg-gray-900 rounded-xl p-6" data-aos="fade-up">
-                    <h3 class="text-lg font-semibold mb-4">How long does it take to complete a project?</h3>
-                    <p class="text-gray-400">Project timelines vary depending on complexity, but typically range from 2-8 weeks. We'll provide a detailed timeline during our initial consultation.</p>
-                </div>
-                <div class="bg-gray-900 rounded-xl p-6" data-aos="fade-up" data-aos-delay="100">
-                    <h3 class="text-lg font-semibold mb-4">What is your pricing structure?</h3>
-                    <p class="text-gray-400">We offer flexible pricing packages tailored to your specific needs. Contact us for a detailed quote based on your project requirements.</p>
-                </div>
-                <div class="bg-gray-900 rounded-xl p-6" data-aos="fade-up" data-aos-delay="200">
-                    <h3 class="text-lg font-semibold mb-4">Do you provide ongoing support?</h3>
-                    <p class="text-gray-400">Yes, we offer comprehensive maintenance and support packages to ensure your website continues to perform optimally.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="py-24 bg-gradient-to-r from-blue-600 to-teal-500">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 class="text-3xl md:text-4xl font-bold mb-8" data-aos="fade-up">Ready to Transform Your Online Presence?</h2>
-            <p class="text-xl mb-12 text-gray-100" data-aos="fade-up" data-aos-delay="100">Join hundreds of successful businesses who trust us with their web development needs.</p>
-            <a href="https://fixrr.online" class="inline-flex items-center px-8 py-4 rounded-full bg-white text-gray-900 font-medium hover:shadow-lg hover:scale-105 transform transition duration-300" data-aos="fade-up" data-aos-delay="200">
-                Get Started Now
-                <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
-                </svg>
-            </a>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-gray-900 border-t border-gray-800">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-                <div>
-                    <h3 class="text-xl font-bold mb-4 bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">WebAgency</h3>
-                    <p class="text-gray-400">Professional web development services in Sydney.</p>
-                </div>
-                <div>
-                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
-                    <ul class="space-y-2">
-                        <li><a href="#features" class="text-gray-400 hover:text-white transition-colors duration-300">Features</a></li>
-                        <li><a href="#benefits" class="text-gray-400 hover:text-white transition-colors duration-300">Benefits</a></li>
-                        <li><a href="#faq" class="text-gray-400 hover:text-white transition-colors duration-300">FAQ</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 class="text-lg font-semibold mb-4">Contact</h4>
-                    <p class="text-gray-400">contact@example.com</p>
-                </div>
-                <div>
-                    <h4 class="text-lg font-semibold mb-4">Follow Us</h4>
-                    <div class="flex space-x-4">
-                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
-                            <span class="sr-only">Twitter</span>
-                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"/>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-gray-900 rounded-2xl p-8 hover:shadow-2xl transition duration-300" data-aos="fade-up">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 flex">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
                             </svg>
-                        </a>
-                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
-                            <span class="sr-only">LinkedIn</span>
-                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
                             </svg>
-                        </a>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                            </svg>
+                        </div>
                     </div>
+                    <p class="text-gray-400 mb-4">"WebAgency transformed our online presence completely. Our conversion rate increased by 150% within the first month of launching our new website. Their attention to detail and focus on user experience is exceptional."</p>
+                    <div class="font-semibold">Sarah Johnson</div>
+                    <div class="text-sm text-gray-400">CEO, TechStart Solutions</div>
                 </div>
-            </div>
-            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-                <p>&copy; 2024 WebAgency. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
+                
+                <div class="bg-gray-900 rounded-2xl p-8 hover:shadow-2xl transition duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 flex">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 mb-4">"The team at WebAgency delivered beyond our expectations. Their responsive design approach ensured our website performs flawlessly across all devices. We've seen a 200% increase in mobile engagement."</p>
+                    <div class="font-semibold">Michael Chen</div>
+                    <div class="text-sm text-gray-400">Marketing Director, Global Retail</div>
+                </div>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            duration: 1000,
-            once: true
-        });
-    </script>
+                <div class="bg-gray-900 rounded-2xl p-8 hover:shadow-2xl transition duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 flex">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588
 </body>
 </html>
